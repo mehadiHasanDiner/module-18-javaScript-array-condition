@@ -1,19 +1,19 @@
 // practice problem 1
 var fruits = ["Apple", "Banana", "Orange"];
-console.log(fruits);
+// console.log(fruits);
 
 // indexof Banana
-var bananaIndex = fruits.indexOf("Banana");
-console.log(bananaIndex);
+var indexofBanana = fruits.indexOf("Banana");
+console.log(indexofBanana);
 
-// Adding Mango
+// replacing banana with mango
 fruits[1] = "Mango";
 console.log(fruits);
 
-// Removing Orange
-fruits.pop("Orange");
+// remove orange
+fruits.pop();
+console.log(fruits);
 
-// Adding Watermelon
+// adding watermelon
 fruits.push("Watermelon");
-
 console.log(fruits);
